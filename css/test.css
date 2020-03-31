@@ -1,0 +1,36 @@
+.block {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    width: 700px;
+    height: 500px;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+.block .block_test1 {
+    width: 150px;
+    height: 100px;
+    background-color:red;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+.block .block_test2 {
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    z-index: 5;
+    
+}
+
+.block .block_test3 {
+    width: 150px;
+    height: 100px;
+    background-color: blue; 
+    position: absolute;
+    
+}
